@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jQM Complex Demo</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.css" />
+  <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview-pull.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="http://example.gajotres.net/iscrollview/iscroll.js"></script>
+  <script src="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!--HOME PAGE-->
+  <div data-role="page" id="home">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Welcome to
+        <br />
+        Math 123!
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <img src="img/main_logo.png" alt="intro page" class="homeimage" />
+        <!--<p align="center">Welcome to Math 123</p>-->
+
+
+        <br />
+        <p align="center">
+          <a href="#listpage" align="center">Let's Learn Some Math!</a>
+        </p>
+
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+  <!---->
+
+  <!--LIST PAGE-->
+  <div data-role="page" id="listpage">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Select One!
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <!--<h2>Select One!</h2>-->
+        <ul data-role="listview">
+          <li><a href="#addition">Addition</a></li>
+          <li><a href="#subtraction">Subtraction</a></li>
+          <li><a href="#multiplication">Multiplication</a></li>
+          <li><a href="#division">Division </a></li>
+        </ul>
+
+        <br />    
+
+        <p align="center">Welcome to Math 123!
+          <br />
+        Select one to start learning Math!</p>
+
+        <p align="center">
+          <img src="img/math_symbols.png" />
+        </p>
+
+        <a href="#home">< Back</a>
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  
+  <!--ADDITION PAGES****************************************************-->
+  <!--ADDITION PAGE-->
+  <div data-role="page" id="addition">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Addition
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <ul data-role="listview">
+          <li><a href="#addbasic">Basic Addition</a></li>
+          <li><a href="#addtwo">Adding numbers in the Tens</a></li>
+          <li><a href="#addthree">Adding numbers in the Hundreds</a></li>
+        </ul>
+
+        <p align="center">Choose what you want to learn!</p>
+
+        <p align="center">
+          <img src="img/add_main.png" />
+        </p>
+
+        <a href="#listpage">< Back</a>
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+  <!-- -->
+
+  <!--ADDITION BASICS-->
+  <div data-role="page" id="addbasic">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Addition Basics
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addtable1">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+              <td align="center"><b><font color="#FF0000" face="Arial" size="3">Set A</font></b>
+            </tr> 
+
+            <tr>
+              <td align="center"><b><font face="Arial" size="3">How many<br />
+                triangles are in <font color="#FF0000">Set A?</font>
+                <br />
+                (There are <font color="#FF0000">2</font>!)</font></b>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center"><b><font face="Arial">
+                <img alt="Set A: 2 triangles" src="img/add/add basic/seta.png" /></font></b>
+              </td>
+            </tr>
+
+            <tr>  
+                <td align="center"><b><font color="#0000FF" face="Arial" size="3">Set B</font></b>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center"><b><font face="Arial" size="3">How many<br />
+                triangles are in <font color="#0000FF">Set B?</font><br />
+                (There are <font color="#0000FF">3</font>!)</font></b>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center"><b><font face="Arial">
+                <img alt="Set B: 3 triangles" src="img/add/add basic/setb.png"  /></font></b>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addtable2">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Now combine them into one set!</font></b>
+              </p>
+
+              <img alt="Combined sets" src="img/add/add basic/combined.png" style="width: 270px; height: 150px" />
+              <br />
+              <img alt="Equation" src="img/add/add basic/equation.png" style="width: 250px; height: 60px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+          <p>
+            <a href="#addition" class="backbtn" align="left">< Back</a>
+            <a href="#addtwo" align="right">Next Lesson ></a>
+          </p>
+    
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+
+  <!--ADD 2 DIGIT PAGE-->
+  <div data-role="page" id="addtwo">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Adding Numbers 
+        <br />
+        In The Tens
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="simple_equation">
+          <tbody>    
+
+            <tr>
+              <td align="center">
+                <img alt="equation" src="img/add/add two/equation.png" />
+              </td>
+            </tr>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+            </tr> 
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try adding these numbers!</font></b>
+              </p>
+            </tr> 
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="stacked">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Stack them up and line up the numbers</font></b>
+              </p>
+
+              <img alt="Combined sets" src="img/add/add two/equation_stacked.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="stacked_add">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Add the first column</font></b>
+              </p>
+
+              <img alt="stacked equation" src="img/add/add two/step1.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="stacked_secondcolumn">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Then add the column to the left</font></b>
+              </p>
+
+              <img alt="stacked equation second column" src="img/add/add two/step2.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="final_equation">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <img alt="final_equation" src="img/add/add two/final_equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <p>
+          <a href="#addition" class="backbtn" align="left">< Back</a>
+          <a href="#addthree" align="right">Next Lesson ></a>
+        </p>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--ADD 3 DIGIT PAGE-->
+  <div data-role="page" id="addthree">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Adding Numbers
+        <br />
+        In The Hundreds
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this!</font></b>
+              </p>
+
+              <img alt="equation" src="img/add/add three/equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Stack them up and line up the numbers</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/stacked.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Stack them up and line up the numbers</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/stacked_one.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do the next part on the side</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/stack_two_side.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="...">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 5:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Separate the '6' under and put the remaining '1' at the top</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/stacked_two.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 6:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Now add the remaining stack</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/third_stack.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="addthree">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 7:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <img alt="" src="img/add/add three/final_equation.png" style="width: 270px; height: 40px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+        <p>
+          <a href="#addition" class="backbtn" align="left">< Back</a>
+          <a href="#subtraction">Subtraction Lesson ></a>
+        </p>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+
+  <!--SUBTRACT PAGES****************************************************-->
+  <!--SUBTRACTION PAGE-->
+  <div data-role="page" id="subtraction">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Subtraction
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <ul data-role="listview">
+          <li><a href="#subbasic">Basic Subtraction</a></li>
+          <li><a href="#subtwo">Subtracting numbers in the tens</a></li>
+          <li><a href="#subadv">Subtracting numbers in the tens (advanced)</a></li>
+        </ul>
+
+        <p align="center">Choose what you want to learn!</p>
+
+        <p align="center">
+          <img src="img/sub_main.png" />
+        </p>
+
+        <a href="#listpage">< Back</a>
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--SUBTRACT BASIC PAGE-->
+  <div data-role="page" id="subbasic">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Subtraction Basics
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+         <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Count how many triangles are in this set</font>
+              <br />
+              (There are <font color="purple">5</font>!)</b>
+              </p>
+
+              <img alt="" src="img/sub/sub basic/seta.png" style="width: 270px; height: 120px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Now take 2 triangles away...</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub basic/setb.png" style="width: 270px; height: 120px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+       <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Count how many triangles are left</font>
+              <br >
+              (There are <font color="blue">3</font>!)</b>
+              </p>
+
+              <img alt="" src="img/sub/sub basic/setc.png" style="width: 270px; height: 120px"/>
+              <br />
+              <img alt="" src="img/sub/sub basic/final_set.png" style="width: 250px; height: 60px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+        <a href="#subtraction" class="backbtn" align="left">< Back</a>
+        <a href="#subtwo">Next Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--SUBTRACT 2 DIGIT PAGE-->
+  <div data-role="page" id="subtwo">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Subtract Numbers
+        <br />
+        In The Tens
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this one</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two/equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Now stack then together</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two/stacked.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do the ones first</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two/stacked_one.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do the tens next</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two/stacked_two.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 5:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two/final_equation.png" style="width: 250px; height: 40px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#subtraction" class="backbtn" align="left">< Back</a>
+      <a href="#subadv">Next Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--SUBTRACT 2 DIGIT ADV PAGE-->
+  <div data-role="page" id="subadv">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Subtract Numbers
+        <br />
+        In The Tens (Advanced)
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this one!</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Stack up the equation</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/stack_one.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do 5-8 first, but can we do this?</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/stack_two.png" style="width: 270px; height: 90px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Make a scratch through the 7 and lower it by 1</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/stack_three.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 5:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Put a 1 by the 5 and make it 15</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/stack_four.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="subtract">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We have our answer now!</font></b>
+              </p>
+
+              <img alt="" src="img/sub/sub two adv/final_equation.png" style="width: 250px; height: 40px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#subtraction" class="backbtn" align="left">< Back</a>
+      <a href="#multiplication">Multiplication Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+
+
+  <!--MULTIPLICATION PAGES****************************************************-->
+  <!--MULTIPLICATION PAGE-->
+  <div data-role="page" id="multiplication">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Multiplication
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <ul data-role="listview">
+          <li><a href="#multbasic">Basic Multiplication</a></li>
+          <li><a href="#multi">Multiplying Two Numbers In The Tens</a></li>
+        </ul>
+
+        <p align="center">Choose what you want to learn!</p>
+
+        <p align="center">
+          <img src="img/mult_main.png" />
+        </p>
+
+        <a href="#listpage">< Back</a>
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--MULTI BASIC PAGE-->
+  <div data-role="page" id="multbasic">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Multiplication Basics
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this one!</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi basic/equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">This shows we have 2 groups of 3 triangles</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi basic/group1.png" style="width: 270px; height: 80px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Put the two groups together and how many triangles do you have?</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi basic/group2.png" style="width: 270px; height: 80px" />
+
+              <p align="center"><b><font color="black" face="Arial" size="4">1, 2, 3, 4, 5, 6</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We have 6 triangles</font></b>
+              </p>
+
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">6 total triangles! So...</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi basic/final_equation.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#multiplication" class="backbtn" align="left">< Back</a>
+      <a href="#multi">Next Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--MULTI 2 NUMBER PAGE-->
+  <div data-role="page" id="multi">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Multiplying Two
+        <br />
+        Numbers In The Tens
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this problem!</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/1.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Set up the numbers like this!</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/2.png" style="width: 270px; height: 150px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">First do this and put the answer in the square</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/3.png" />
+              <br />
+              <br />
+              <img alt="" src="img/multi/multi two/4.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Next do this</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/5.png" />
+              <br />
+              <br />
+              <img alt="" src="img/multi/multi two/6.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 5:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Next try this</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/7.png" />
+              <br />
+              <br />
+              <img alt="" src="img/multi/multi two/8.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 6:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Then do the last one</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/9.png" />
+              <br />
+              <br />
+              <img alt="" src="img/multi/multi two/10.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 7:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Now add down the diagonal stripes.  Start at the bottom and work your way up the stripes</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/11.png" />
+              <img alt="" src="img/multi/multi two/12.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 8:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We now get our answer by reading down the left side and across the bottom</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/13.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="multiple">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Here is our final answer!</font></b>
+              </p>
+
+              <img alt="" src="img/multi/multi two/14.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#multiplication" class="backbtn" align="left">< Back</a>
+      <a href="#division">Division Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+
+
+  <!--DIVISION PAGES****************************************************-->
+  <!--DIVISION PAGE-->
+  <div data-role="page" id="division">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Division
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <ul data-role="listview">
+          <li><a href="#divbasic">Division Basics</a></li>
+          <li><a href="#divi">Dividing Two Numbers</a></li>
+        </ul>
+
+        <p align="center">Choose what you want to learn!</p>
+
+        <p align="center">
+          <img src="img/div_main.png" />
+        </p>
+
+        <a href="#listpage">< Back</a>
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--DIVIDE BASICS PAGE TEMPLATE-->
+  <div data-role="page" id="divbasic">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Division Basics
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this problem</font></b>
+              </p>
+
+              <img alt="" src="img/divide/basics/division1.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We start with 6 triangles</font></b>
+              </p>
+
+              <img alt="" src="img/divide/basics/division2.png" style="width: 270px; height: 80px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We can divide 6 things into 2 chunks of 3</font></b>
+              </p>
+
+              <img alt="" src="img/divide/basics/division3.png" style="width: 270px; height: 80px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">If we do this we get the answer of '2' for this problem</font></b>
+              </p>
+
+              <img alt="" src="img/divide/basics/division4.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#division" class="backbtn" align="left">< Back</a>
+      <a href="#divi">Next Lesson ></a>
+
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+  <!--DIVIDE TWO NUMBERS PAGE TEMPLATE-->
+  <div data-role="page" id="divi">
+
+    <div data-theme="a" data-role="header">
+      <h3>
+        Dividing 
+        <br />
+        Two Numbers
+      </h3>
+    </div>
+
+    <div data-role="content">
+      <div class="example-wrapper" data-iscroll>
+
+        <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 1:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Let's try this problem</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-00.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 2:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">The first thing we do is change the problem to look like this</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-01.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 3:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Multiply the 3 and the 2 and put the answer right under the 6</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-03.png" style="width: 270px; height: 120px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 4:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do the subtraction. That's 6 - 6 = 0</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-04.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 5:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Drag the 8 down</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-05.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 6:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We want to see how many times 2 will go into 8.
+              <br />
+              2 goes into 8 four times, so we put that 4 right above the 8
+              </font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-06.png" style="width: 270px; height: 150px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 7:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Multiply the 4 and the 2 and put the answer right under the 8</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-07.png" style="width: 270px; height: 150px" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Step 8:</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">Do some subtraction. 8 - 8 = 0</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-08.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <div align="center">
+        <table border="0" cellpadding="5" cellspacing="0" id="division">
+          <tbody>
+
+            <tr>
+              <p align="center"><b><font color="black" face="Arial" size="4">Good Job!</font></b>
+              </p>
+
+              <p align="center"><b><font color="black" face="Arial" size="4">We are done! The answer is 34!</font></b>
+              </p>
+
+              <img alt="" src="img/divide/divide two/long-division-09.png" />
+
+            </tr>  
+
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+      <hr >
+
+      <a href="#division" class="backbtn" align="left">< Back</a>
+      <a href="#listpage" class="backbtn" align="left">Main Page ></a>
+ 
+      </div>
+    </div>
+
+    <div data-theme="a" data-role="footer">
+      <h1>Copyright 2016</h1>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>   

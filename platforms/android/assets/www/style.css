@@ -1,0 +1,32 @@
+ui-content {
+    padding: 0 !important;
+}
+  
+.ui-listview {
+    margin: 0 !important;
+}
+  
+.example-wrapper, .example-wrapper div.iscroll-scroller {
+    width: 100% !important;
+}
+
+.homeimage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.set_image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.backbtn{
+    padding-right: 15px;
+}
+
+
+p {
+	font-size: 20px;
+}
